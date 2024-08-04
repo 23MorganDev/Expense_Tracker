@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+    <meta name="description" content="Register" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="register.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="container-register">
+      <div id="title"><i class="material-icons lock">lock</i> Register</div>
+
+      <form id="form">
+        <div class="input">
+          <label for="email">
+            <i class="material-icons">email</i>
+            <input
+              id="email"
+              placeholder="Email"
+              type="email"
+              required
+              class="validate"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="input">
+          <label for="username">
+            <i class="material-icons">face</i>
+            <input
+              id="username"
+              placeholder="Username"
+              type="text"
+              required
+              class="validate"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="input">
+          <label for="password">
+            <i class="material-icons">vpn_key</i>
+            <input
+              id="password"
+              placeholder="Password"
+              type="password"
+              required
+              class="validate"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <div class="remember-me">
+          <label>
+            <input type="checkbox" />
+            <span>I accept Terms of Service And Conditions</span>
+          </label>
+        </div>
+
+        <input type="submit" value="Register" />
+        <p id="auth-msg"></p>
+      </form>
+
+      <div class="privacy">
+        <a href="#">Privacy Policy</a>
+      </div>
+
+      <div class="register">
+        <span>Do you already have an account?</span>
+        <a href="./login.html"
+          ><button id="register-link">Log In here</button></a
+        >
+      </div>
+    </div>
+
+    <script src="./register.js"></script>
+  </body>
+</html>

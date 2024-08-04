@@ -1,0 +1,7 @@
+{
+    "development": {
+        "username" : "root",
+        "password": "{password}",
+        "database": "expense_tracker"
+    }
+}
